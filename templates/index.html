@@ -1,0 +1,51 @@
+<html>
+    <head><title>GoGrow web</title>
+        <link rel="stylesheet" href="static/mystyle.css">
+    </head>
+    <body>
+        <div class = "header">
+        <img src="https://images.vexels.com/media/users/3/142904/isolated/lists/b328ffdd1c50214fdfac8a447e74c5f8-plant-circle-logo.png" width="100px" height="auto" /><h1 style="color:#71b426">GoGrow</h1>
+
+
+        </div>
+
+
+        <div class="middel">
+          <a style="margin-top:10px" class = "btn" href="/">HOME</a>
+          <a  style="margin-top:10px" href="/farmer aid" class="btn"> Farmers aid</a>
+          <a  style="margin-top:10px" href="/community" class="btn">Community</a>
+        <p style="padding-top: 20px; padding-left:100px; padding-right:100px; ">A page to unite all the agricultural practitioners and farmers around the world. Farmers are the backbones of the world, technology and innovation are progressing in a healthy speed but as tech-science grows, it causes an indirect harm to agriculture and farming. Hence, we have taken an innitiative to use the advancing applications for the benefit of farmers.</p>
+
+        <p style="padding-left:100px; padding-right:100px;">providing a massive pool of information on which a farmer can rely oon to make successful plans well ahead of time </p>
+
+        <p style="padding-left:100px; padding-right:100px;">
+          an innitiative with a rippling effect which has the potential to stop calamities such as famines, poverty and starvation
+        </p>
+        <hr>
+        <br>
+</div>
+        <table style="margin-left:auto;margin-right:auto;" border="2px">
+          <thead>
+            <th>Title</th>
+            <th>Link</th>
+          </thead>
+          {%for i in range(1,20)%}
+          <tr>
+            <td>
+                    {{data[i][1]}}
+            </td>
+
+              <td>
+                    <a href = "{{data[i][0]}}">link</a>
+            </td>
+
+
+          </tr>
+
+        {%endfor%}
+
+        </table>
+
+
+    </body>
+</html>

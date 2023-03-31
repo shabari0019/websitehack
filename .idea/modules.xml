@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Final.iml" filepath="$PROJECT_DIR$/.idea/Final.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/day-56/.idea/day-56.iml" filepath="$USER_HOME$/PycharmProjects/day-56/.idea/day-56.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hacrrupt/.idea/hacrrupt.iml" filepath="$PROJECT_DIR$/../hacrrupt/.idea/hacrrupt.iml" />
+    </modules>
+  </component>
+</project>
