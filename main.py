@@ -5,6 +5,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
+#
+# Open link in new page
+# Make text to link
+# Remove Borders
+# Add link to skip to particular section
+# Login for community
+
 from tkinter import *
 import csv
 global lan,lat
